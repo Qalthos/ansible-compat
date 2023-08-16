@@ -40,3 +40,6 @@ jobs:
   #   trigger: release
   #   metadata:
   #     dist-git-branch: master
+notifications:
+  pull_request:
+    successful_build: false
